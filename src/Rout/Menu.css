@@ -1,0 +1,22 @@
+.Menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .nav{
+    width: 600px;
+  }
+  .li{
+    margin: 0 25px;
+    color: white;
+}
+.a{
+      font-size: 14px;
+    color: white;
+    text-decoration: none;
+  }
+  .a:hover{
+    color: red;
+    transition: 0.3s;
+  }
