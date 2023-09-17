@@ -1,0 +1,67 @@
+/* App.css */
+
+/* Default button styles */
+.btn {
+  border: 1px solid rgb(0, 192, 240);
+  margin: 2px;
+  border-radius: 5px;
+  width: 90px;
+  height: 30px;
+  background-color: rgb(40, 169, 255);
+  cursor: pointer;
+}
+
+/* Active button style */
+.btn.active {
+  color: white;
+  background-color: green; /* Change this to your desired active button background color */
+}
+
+/* Container for buttons */
+.div-btn {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for product items */
+.showCategory {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px; /* Adjust the gap between items as needed */
+  margin-top: 20px;
+}
+
+.item {
+  text-align: center;
+  border: 1px solid #ccc; /* Add borders to your items */
+  padding: 10px;
+  background-color: #fff; /* Background color for items */
+}
+
+.item > img {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  max-height: 150px;
+}
+
+/* Other styles for item details like title, description, and price */
+.item h4 {
+  font-size: 16px;
+}
+
+.item h5 {
+  font-size: 14px;
+  color: #555;
+}
+
+.item h3 {
+  font-size: 18px;
+  color: #007bff; /* Change this to your desired price color */
+}
+
+/* Container around the entire app */
+.container {
+  margin: 20px;
+}
