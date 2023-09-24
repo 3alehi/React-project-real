@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+.brand {
+    color: white;
+    font-family: 'Fuggles', cursive;
+    font-size: 19px;
+}
+
+.navbar {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px, 2px 3px 4px;
+    background-color: rgb(2, 127, 161);
+}
+
+.icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.addTocar {
+    position: relative;
+    top: -20px;
+
+}
+
+.Card {
+    width: 500px;
+ 
+    right: 0;
+    top: 0;
+    background-color: white;
+    position: absolute;
+    border: 2px solid red;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px orange , 3px 4px 2px blue;
+}
+
+.close {
+    position: absolute;
+    left: 0;
+}
+.null{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+.card-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+.product-card{
+    display: flex;
+    justify-content: space-around;
+}
